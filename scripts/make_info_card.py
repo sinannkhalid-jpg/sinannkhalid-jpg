@@ -24,8 +24,9 @@ DATA = {
     "stack": "React, Next.js, TypeScript, Tailwind",
     "deploy": "Vercel, AWS EC2",
     "highlights": [
-	"Built a OSINT, you can find in repo"
+	"Built a OSINT, you can find in repo",
         "Built HallHub, a venue-booking PWA",
+	"Built a SaaS Dashboard for freelancers",
     ],
 }
 # ---------------------------------------------------

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="262" viewBox="0 0 490 262" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="314" viewBox="0 0 490 314" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="14">
 <style>@keyframes lineIn {0% { opacity: 0; transform: translateX(-6px); }100% { opacity: 1; transform: translateX(0); }}.line { opacity: 0; animation: lineIn 0.01s linear forwards; }</style>
-<rect x="0.5" y="0.5" width="489" height="261" rx="8" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="489" height="313" rx="8" fill="#0d1117" stroke="#30363d"/>
 <rect x="0.5" y="0.5" width="489" height="34" rx="8" fill="#161b22"/>
 <rect x="0.5" y="26" width="489" height="8" fill="#161b22"/>
 <circle cx="16" cy="17" r="5" fill="#ff5f56"/>
@@ -13,5 +13,7 @@
 <text x="18" y="138" class="line" style="animation-delay:0.36s; animation-duration:0.4s;"><tspan fill="#39d353">stack</tspan><tspan fill="#c9d1d9">  React, Next.js, TypeScript, Tailwind</tspan></text>
 <text x="18" y="164" class="line" style="animation-delay:0.48s; animation-duration:0.4s;"><tspan fill="#39d353">deploy</tspan><tspan fill="#c9d1d9">  Vercel, AWS EC2</tspan></text>
 <text x="18" y="197.8" class="line" style="animation-delay:0.60s; animation-duration:0.4s;" fill="#39d353">highlights</text>
-<text x="18" y="223.8" class="line" style="animation-delay:0.72s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built a OSINT, you can find in repoBuilt HallHub, a venue-booking PWA</tspan></text>
+<text x="18" y="223.8" class="line" style="animation-delay:0.72s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built a OSINT, you can find in repo</tspan></text>
+<text x="18" y="249.8" class="line" style="animation-delay:0.84s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built HallHub, a venue-booking PWA</tspan></text>
+<text x="18" y="275.8" class="line" style="animation-delay:0.96s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built a SaaS Dashboard for freelancers</tspan></text>
 </svg>
