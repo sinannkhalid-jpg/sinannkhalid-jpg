@@ -22,6 +22,7 @@ DATA = {
     "prev": "Web Developer,Pentester",
     "os": "kali linux,Ubuntu,windows",
     "stack": "React, Next.js, TypeScript, Tailwind",
+    "deploy": "Vercel, AWS EC2",
     "highlights": [
 	"Built a OSINT, you can find in repo"
         "Built HallHub, a venue-booking PWA",
