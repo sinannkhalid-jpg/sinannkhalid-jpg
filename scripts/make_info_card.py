@@ -27,6 +27,7 @@ DATA = {
 	"Built a OSINT, you can find in repo",
         "Built HallHub, a venue-booking PWA",
 	"Built a SaaS Dashboard for freelancers",
+	"Built a Personal Portfolio Website",
     ],
 }
 # ---------------------------------------------------
@@ -36,8 +37,8 @@ LINE_H = 26
 TITLE_H = 34
 PAD_X = 18
 FONT = "JetBrains Mono, SFMono-Regular, Consolas, monospace"
-STAGGER = 0.12
-DUR = 0.4
+STAGGER = 0.25
+DUR = 0.6
 
 COLOR_KEY = "#39d353"
 COLOR_VAL = "#c9d1d9"

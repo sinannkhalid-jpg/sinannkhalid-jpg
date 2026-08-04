@@ -26,8 +26,8 @@ FONT_SIZE = 8
 CHAR_W = FONT_SIZE * 0.6
 CHAR_H = FONT_SIZE * 1.0
 FILL_COLOR = "#8b949e"  # single light-gray fill, no rainbow per-char color
-ROW_STAGGER = 0.045     # seconds between each row starting to wipe in
-WIPE_DURATION = 0.35    # seconds for a single row to wipe fully in
+ROW_STAGGER = 0.085     # seconds between each row starting to wipe in
+WIPE_DURATION = 0.55    # seconds for a single row to wipe fully in
 
 
 def image_to_ascii_rows(img_path: str, cols: int = COLS, rows: int = ROWS):

@@ -1,19 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="314" viewBox="0 0 490 314" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="340" viewBox="0 0 490 340" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="14">
 <style>@keyframes lineIn {0% { opacity: 0; transform: translateX(-6px); }100% { opacity: 1; transform: translateX(0); }}.line { opacity: 0; animation: lineIn 0.01s linear forwards; }</style>
-<rect x="0.5" y="0.5" width="489" height="313" rx="8" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="489" height="339" rx="8" fill="#0d1117" stroke="#30363d"/>
 <rect x="0.5" y="0.5" width="489" height="34" rx="8" fill="#161b22"/>
 <rect x="0.5" y="26" width="489" height="8" fill="#161b22"/>
 <circle cx="16" cy="17" r="5" fill="#ff5f56"/>
 <circle cx="34" cy="17" r="5" fill="#ffbd2e"/>
 <circle cx="52" cy="17" r="5" fill="#27c93f"/>
 <text x="245" y="22" text-anchor="middle" fill="#8b949e" font-size="12">avi@github: ~/whoami</text>
-<text x="18" y="60" class="line" style="animation-delay:0.00s; animation-duration:0.4s;"><tspan fill="#39d353">now</tspan><tspan fill="#c9d1d9">  CSE and Cybersecurity Student</tspan></text>
-<text x="18" y="86" class="line" style="animation-delay:0.12s; animation-duration:0.4s;"><tspan fill="#39d353">prev</tspan><tspan fill="#c9d1d9">  Web Developer,Pentester</tspan></text>
-<text x="18" y="112" class="line" style="animation-delay:0.24s; animation-duration:0.4s;"><tspan fill="#39d353">os</tspan><tspan fill="#c9d1d9">  kali linux,Ubuntu,windows</tspan></text>
-<text x="18" y="138" class="line" style="animation-delay:0.36s; animation-duration:0.4s;"><tspan fill="#39d353">stack</tspan><tspan fill="#c9d1d9">  React, Next.js, TypeScript, Tailwind</tspan></text>
-<text x="18" y="164" class="line" style="animation-delay:0.48s; animation-duration:0.4s;"><tspan fill="#39d353">deploy</tspan><tspan fill="#c9d1d9">  Vercel, AWS EC2</tspan></text>
-<text x="18" y="197.8" class="line" style="animation-delay:0.60s; animation-duration:0.4s;" fill="#39d353">highlights</text>
-<text x="18" y="223.8" class="line" style="animation-delay:0.72s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built a OSINT, you can find in repo</tspan></text>
-<text x="18" y="249.8" class="line" style="animation-delay:0.84s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built HallHub, a venue-booking PWA</tspan></text>
-<text x="18" y="275.8" class="line" style="animation-delay:0.96s; animation-duration:0.4s;"><tspan fill="#c9d1d9">- Built a SaaS Dashboard for freelancers</tspan></text>
+<text x="18" y="60" class="line" style="animation-delay:0.00s; animation-duration:0.6s;"><tspan fill="#39d353">now</tspan><tspan fill="#c9d1d9">  CSE and Cybersecurity Student</tspan></text>
+<text x="18" y="86" class="line" style="animation-delay:0.25s; animation-duration:0.6s;"><tspan fill="#39d353">prev</tspan><tspan fill="#c9d1d9">  Web Developer,Pentester</tspan></text>
+<text x="18" y="112" class="line" style="animation-delay:0.50s; animation-duration:0.6s;"><tspan fill="#39d353">os</tspan><tspan fill="#c9d1d9">  kali linux,Ubuntu,windows</tspan></text>
+<text x="18" y="138" class="line" style="animation-delay:0.75s; animation-duration:0.6s;"><tspan fill="#39d353">stack</tspan><tspan fill="#c9d1d9">  React, Next.js, TypeScript, Tailwind</tspan></text>
+<text x="18" y="164" class="line" style="animation-delay:1.00s; animation-duration:0.6s;"><tspan fill="#39d353">deploy</tspan><tspan fill="#c9d1d9">  Vercel, AWS EC2</tspan></text>
+<text x="18" y="197.8" class="line" style="animation-delay:1.25s; animation-duration:0.6s;" fill="#39d353">highlights</text>
+<text x="18" y="223.8" class="line" style="animation-delay:1.50s; animation-duration:0.6s;"><tspan fill="#c9d1d9">- Built a OSINT, you can find in repo</tspan></text>
+<text x="18" y="249.8" class="line" style="animation-delay:1.75s; animation-duration:0.6s;"><tspan fill="#c9d1d9">- Built HallHub, a venue-booking PWA</tspan></text>
+<text x="18" y="275.8" class="line" style="animation-delay:2.00s; animation-duration:0.6s;"><tspan fill="#c9d1d9">- Built a SaaS Dashboard for freelancers</tspan></text>
+<text x="18" y="301.8" class="line" style="animation-delay:2.25s; animation-duration:0.6s;"><tspan fill="#c9d1d9">- Built a Personal Portfolio Website</tspan></text>
 </svg>
