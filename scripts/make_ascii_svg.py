@@ -32,6 +32,20 @@ WIPE_DURATION = 0.35    # seconds for a single row to wipe fully in
 
 def image_to_ascii_rows(img_path: str, cols: int = COLS, rows: int = ROWS):
     img = Image.open(img_path).convert("L")
+    src_w, src_h = img.size
+    char_aspect = CHAR_W / CHAR_H
+    target_ratio = (cols * char_aspect) / rows
+    src_ratio = src_w / src_h
+
+    if src_ratio > target_ratio:
+        new_w = int(src_h * target_ratio)
+        left = (src_w - new_w) // 2
+        img = img.crop((left, 0, left + new_w, src_h))
+    else:
+        new_h = int(src_w / target_ratio)
+        top = (src_h - new_h) // 2
+        img = img.crop((0, top, src_w, top + new_h))
+
     img = img.resize((cols, rows))
     pixels = list(img.getdata())
 
@@ -41,7 +55,6 @@ def image_to_ascii_rows(img_path: str, cols: int = COLS, rows: int = ROWS):
         row_chars = []
         for c in range(cols):
             brightness = pixels[r * cols + c]  # 0=black .. 255=white
-            # invert: bright -> low density (space), dark -> high density
             idx = int((255 - brightness) / 255 * (ramp_len - 1))
             row_chars.append(RAMP[idx])
         ascii_rows.append("".join(row_chars))
@@ -75,7 +88,6 @@ def build_svg(ascii_rows, out_path: str):
     for i, row in enumerate(ascii_rows):
         y = (i + 1) * CHAR_H
         clip_id = f"clip-row-{i}"
-        # clip rect wipes from width 0 -> full width, left to right
         parts.append(f'<clipPath id="{clip_id}">')
         parts.append(
             f'  <rect x="0" y="{y - CHAR_H:.1f}" width="0" height="{CHAR_H:.1f}">'
@@ -101,7 +113,6 @@ def build_svg(ascii_rows, out_path: str):
             f'xml:space="preserve">{safe_row}</text>'
             f"</g>"
         )
-        # trailing "cursor" block riding the wipe edge
         begin = i * ROW_STAGGER
         parts.append(
             f'<rect y="{y - CHAR_H:.1f}" width="{CHAR_W:.1f}" height="{CHAR_H:.1f}" '
