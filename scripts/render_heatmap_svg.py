@@ -126,12 +126,12 @@ def build_svg(payload: dict, out_path: str):
             x = LEFT_PAD + wi * CELL
             y = TOP_PAD + ri * CELL
             diag = wi + ri
-            delay = (diag / max_diag) * 2.7  # spread the whole reveal over ~1.6s
+            delay = (diag / max_diag) * 2.6  # spread the whole reveal over ~1.6s
             title = f'{day["count"]} contributions on {day["date"]}'
             parts.append(
                 f'<rect class="box" x="{x}" y="{y}" width="{BOX}" height="{BOX}" '
                 f'rx="2" fill="{color}" style="animation-delay:{delay:.3f}s; '
-                f'animation-duration:0.70s;">'
+                f'animation-duration:0.55s;">'
                 f'<title>{esc(title)}</title>'
                 f"</rect>"
             )
